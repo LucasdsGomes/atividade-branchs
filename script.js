@@ -4,7 +4,7 @@ function cliq() {
 
 
 function cliq2() {
-    const p1 = document.createElement("p")
+    const p1 = document.getElementById("phrase")
     p1.textContent = "Você clicou no botão 2!"
     alert("Você clicou no botão 2!")
 }
